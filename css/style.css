@@ -1,0 +1,419 @@
+body {
+margin: 0;
+}
+
+nav {
+  
+}
+
+ul {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+list-style: none;
+font-family: 'Poppins', sans-serif; 
+align-self: flex-end;
+}
+
+
+li
+{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+#home {
+display: flex;
+flex-direction: column;
+justify-content:center;
+background-image: url("../img/30174.jpg");
+background-size: cover;
+height: 100vh;
+width: 100vw;
+color: white;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#menu ul {
+visibility: hidden;
+
+}
+
+#burger {
+    visibility: visible;
+}
+
+
+i{
+    align-self:flex-end;
+
+}
+
+#bloctexte 
+{ 
+display: flex;
+flex-direction: column;
+flex-basis: 90%;
+align-items: center;
+justify-content: center;
+margin-bottom: 10%;
+
+}
+
+#icone {
+padding: 15px;
+
+}
+
+
+h1 {
+font-family: 'Poppins', sans-serif;
+font-style: bold;
+}
+
+#typed {
+
+font-family: 'Poppins', sans-serif;
+font-style: bold;
+}
+
+#aboutme {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#titreaboutme {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+#paragrapheimg {
+display: flex;
+flex-direction: row;
+align-content: space-between;
+}
+
+#certif {
+background-color:#f7f7f7;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h3 {
+font-family:'Poppins', sans-serif;
+font-style: bold;
+color: grey;
+}
+
+.image {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#certif img
+{
+height: 150px;
+width: 150px;
+}
+#images {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+#images>div>img {
+height: 25vw;
+width: 25vw;
+margin: 5px;
+
+}
+
+#images>div
+{
+position: relative; 
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+#images>div>div {
+position: absolute;
+height: 25vw;
+width: 25vw;
+margin: 5px;
+background: radial-gradient(#f1e6ec, #cfb8c0);   
+transition: opacity 1s ease-out ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: 'Poppins';
+}
+
+#images>div>div:hover {
+opacity: 0;
+}
+
+#portfolio>#titre {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.logo {
+height: 8vw;
+width: 8vw;
+}
+
+#formulaire 
+{
+background-color: #f7f7f7;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+}
+
+#form div {
+padding: 10px;
+}
+
+input {
+border-radius: 5px;
+border:none;
+font-size: 14pt;
+padding: 10px;
+}
+
+textarea {
+border-radius: 5px;
+border: none;
+font-size: 14pt;
+padding: 10px;
+}
+
+
+@media (min-width: 750px) {
+    
+    body {
+        margin: 0;
+        }
+    
+    #menu {
+            background-color: rgba(0, 0, 0, 0.39);
+         }
+
+        ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        font-family: 'Poppins', sans-serif;
+        }
+        
+        
+        li
+        {
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+
+      
+        
+        
+        #home {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        background-image: url("../img/30174.jpg");
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        color: white;
+        }
+        
+        #menu ul {
+
+        visibility: visible;
+        }
+
+        #burger {
+            visibility: hidden;
+            padding: 0;
+            margin: 0;
+            height: 1px;
+            width: 1px;
+        }
+
+        
+      i{
+            align-self:flex-end;
+        
+        }
+
+        #bloctexte 
+        { 
+        display: flex;
+        flex-direction: column;
+        flex-basis: 90%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10%;
+        }
+        
+        #icone {
+        padding: 15px;
+        
+        }
+        
+        
+        h1 {
+        font-family: 'Poppins', sans-serif;
+        font-style: bold;
+        }
+        
+        #typed {
+        
+        font-family: 'Poppins', sans-serif;
+        font-style: bold;
+        }
+        
+        #aboutme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        #titreaboutme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        
+        #paragrapheimg {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        }
+        
+        #certif {
+        background-color:#f7f7f7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        h3 {
+        font-family:'Poppins', sans-serif;
+        font-style: bold;
+        color: grey;
+        }
+        
+        .image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        #certif img
+        {
+        height: 150px;
+        width: 150px;
+        }
+        #images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        }
+        
+        #images>div>img {
+        height: 25vw;
+        width: 25vw;
+        margin: 5px;
+        
+        }
+        
+        #images>div
+        {
+        position: relative; 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+        #images>div>div {
+        position: absolute;
+        height: 25vw;
+        width: 25vw;
+        margin: 5px;
+        background: radial-gradient(#f1e6ec, #cfb8c0);   
+        transition: opacity 1s ease-out ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Poppins';
+        }
+        
+        #images>div>div:hover {
+        opacity: 0;
+        }
+        
+        #portfolio>#titre {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        }
+        
+        .logo {
+        height: 8vw;
+        width: 8vw;
+        }
+        
+        #formulaire 
+        {
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        }
+        
+        #form div {
+        padding: 10px;
+        }
+        
+        input {
+        border-radius: 5px;
+        border:none;
+        font-size: 14pt;
+        padding: 10px;
+        }
+        
+        textarea {
+        border-radius: 5px;
+        border: none;
+        font-size: 14pt;
+        padding: 10px;
+        }
+}
